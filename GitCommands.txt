@@ -1,0 +1,20 @@
+GIT COMMANDS
+1. git log - gives the history of commits
+2. git branch - lists down the branch
+		  - represents which branch you are in
+3. git checkout {branch name} - switch to different branch
+4. git --version - to check if git is installed on your device and to check the version of git
+
+GIT COMMIT COMMANDS
+1. git add {file name} or git add .[adds all the files]
+2. git commit -m 'name of the folder you want'
+
+
+
+TO PUSH A REPOSITORY
+1. git init 
+2. git status - to check the status of your files {whether they are committed or not.}
+3. git add . - use the '.' to add all the files to commit
+4. git commit -m "name of the folder you want"  - it will commit all the files you added to commit
+5. git remote add source "https or ssh clone link of your gitlab respository" - add a remote to your gitlab repository
+6.git push -u -f source master  - to push the commited files to your gitlab repository 
